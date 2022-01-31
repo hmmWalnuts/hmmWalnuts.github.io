@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: #cbcbcb;
+    background-color: #3A3F4A;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.text {
+    padding-left: 3rem;
+    padding-right: 6rem;
+    font-size: 24px;
+}
+.large {
+    font-size: 32px;
+
+}
+.seperated {
+    margin-bottom: 40px;
+}
+
+.hyperlink {
+    color:#9bdbc8;
+    text-decoration-line: none;
+}
+.hyperlink:hover {
+    font-style: normal;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+}
+
+@keyframes Anim_bubble {
+    0% {bottom: 0px;}
+    50% {top: 0px;}
+    100% {bottom: 0px;}
+}
+
+.bubble {
+    float: left;
+    position: relative;
+    bottom: 0px;
+    top: 30px;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+    border-width: 10px;
+
+    background-color: #2A2F3A;
+    position: relative;
+    animation: Anim_bubble 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+#discord_title {
+    margin-bottom: 70px;
+
+    background-color: #2A2F3A;
+
+    height: 100px;
+}
